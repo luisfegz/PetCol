@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="flex items-center justify-center flex-col">
       <Navbar />
-        <div className="h-[45em] relative w-full bg-black flex flex-col items-center justify-center rounded-md">
+        <div className="h-[25em] relative w-full bg-black flex flex-col items-center justify-center rounded-md">
           <div className="w-full absolute inset-0 h-screen">
             <SparklesCore
               id="tsparticlesfullpage"
@@ -22,8 +22,8 @@ export default function Home() {
               particleColor="#FFFFFF"
             />
           </div>
-          <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
-            Build great products
+          <h1 className="md:text-7xl text-xl lg:text-6xl font-bold text-center text-white relative z-20 pr-10 pl-10">
+          &quot;No puedo decir lo mucho que te quiero, pero estoy constantemente demostrándotelo &quot;
           </h1>
         </div>
         <section 
@@ -39,8 +39,7 @@ export default function Home() {
               flex flex-col mt-[-100px] md:mt-[-100px]
             "
           >
-            {/* <-----------------------------------------------------------------> */}
-            
+            {/* <-----------------------------------------------------------------> */} 
             <ContainerScroll
               titleComponent={
                 <div className="flex items-center flex-col">
@@ -56,20 +55,20 @@ export default function Home() {
                     <span 
                       className="
                         bg-clip-text text-transparent bg-gradient-to-r from-neutral-500 
-                        to-neutral-600 md:text-center font-sans group-hover:bg-gradient-to-r 
+                        to-neutral-600 font-sans group-hover:bg-gradient-to-r 
                         group-hover:from-black goup-hover:to-black
                       "
                     >
-                      Start For Free Today
+                      Experiencia Petcol
                     </span>
                   </Button>
                   <h1 
                     className="
-                      text-5xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b 
+                      text-6xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-b 
                     from-white to-neutral-600 font-sans font-bold
                     "
                   >
-                    Automate Your Work With Fuzzie
+                    Mi corazon esta lleno de huellas
                   </h1>
                 </div>
               }
