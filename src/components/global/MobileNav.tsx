@@ -25,12 +25,12 @@ const MobileNav = () => {
     <div className='sm:hidden'>
       <Menu
         onClick={toggleOpen}
-        className='relative z-50 h-5 w-5 text-zinc-700 '
+        className='relative z-50 h-5 w-5 text-zinc-700'
       />
 
       {isOpen ? (
         <div className='fixed animate-in slide-in-from-top-5 fade-in-20 inset-0 z-0 w-full'>
-          <ul className='absolute bg-black/40 border-b border-zinc-200 shadow-xl grid w-full gap-3 px-10 pt-20 pb-8'>
+          <ul className='absolute border-b border-zinc-700 shadow-xl grid w-full gap-3 px-10 pt-20 pb-8 bg-black'>
               <>
                 <li>
                   <Link
@@ -42,7 +42,7 @@ const MobileNav = () => {
                     Accesorios
                   </Link>
                 </li>
-                <li className='my-3 h-px w-full bg-gray-300' />
+                <li className='my-3 h-px w-full bg-zinc-700' />
                 <li>
                   <Link
                     onClick={() =>
@@ -53,7 +53,7 @@ const MobileNav = () => {
                     Juguetes
                   </Link>
                 </li>
-                <li className='my-3 h-px w-full bg-gray-300' />
+                <li className='my-3 h-px w-full bg-zinc-700' />
                 <li>
                   <Link
                     onClick={() =>
