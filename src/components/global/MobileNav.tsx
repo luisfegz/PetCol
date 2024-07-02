@@ -25,7 +25,7 @@ const MobileNav = () => {
     <div className='sm:hidden'>
       <Menu
         onClick={toggleOpen}
-        className='relative z-50 h-5 w-5 text-zinc-700'
+        className='relative z-50 h-8 w-8 text-zinc-700'
       />
 
       {isOpen ? (
@@ -37,7 +37,7 @@ const MobileNav = () => {
                     onClick={() =>
                       closeOnCurrent('/pricing')
                     }
-                    className='flex items-center w-full font-semibold text-white'
+                    className='flex items-center w-full font-medium text-xl text-white'
                     href='/accesorios'>
                     Accesorios
                   </Link>
@@ -48,7 +48,7 @@ const MobileNav = () => {
                     onClick={() =>
                       closeOnCurrent('/pricing')
                     }
-                    className='flex items-center w-full font-semibold text-white'
+                    className='flex items-center w-full font-medium text-xl text-white'
                     href='/juguetes'>
                     Juguetes
                   </Link>
@@ -59,7 +59,7 @@ const MobileNav = () => {
                     onClick={() =>
                       closeOnCurrent('/nosotros')
                     }
-                    className='flex items-center w-full font-semibold text-white'
+                    className='flex items-center w-full font-medium text-xl text-white'
                     href='/binestar'>
                     Bienestar
                   </Link>

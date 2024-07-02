@@ -10,15 +10,15 @@ import MaxWidthWrapper from './MaxWidthWrapper';
 
 const NewNavbar = () => {
   return (
-    <nav className='sticky h-14 inset-x-0 top-0 z-30 w-full border-b bg-black transition-all'>
+    <nav className='sticky h-[76px] inset-x-0 top-0 z-30 w-full border-b bg-black transition-all'>
       <MaxWidthWrapper>
-        <div className='flex h-14 items-center justify-between border-b'>
+        <div className='flex h-[76px] items-center justify-between border-b'>
           <Link href='/' className='flex items-center z-40 '>
             <Image
                 src="/favicon.png"
                 alt="Champion Store Logo"
-                width={38}
-                height={38}
+                width={42}
+                height={42}
                 className="shadow-sm"
             />
             <span className='w-full font-semibold text-black-500'></span>
@@ -80,8 +80,8 @@ const NewNavbar = () => {
             <Link 
               href='/ofertas' 
               className="
-                inline-flex h-10 animate-shimmer items-center justify-center z-40
-                rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] 
+                inline-flex h-14 text-xl animate-shimmer items-center justify-center z-40
+                rounded-md border border-zinc-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] 
                 bg-[length:200%_100%] px-6 font-medium text-slate-100 transition-colors focus:outline-none 
                 focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
               "
