@@ -10,7 +10,7 @@ import MaxWidthWrapper from './MaxWidthWrapper';
 
 const NewNavbar = () => {
   return (
-    <nav className='sticky h-14 inset-x-0 top-0 z-30 w-full border-b bg-black/40 backdrop-blur-lg transition-all'>
+    <nav className='sticky h-14 inset-x-0 top-0 z-30 w-full border-b backdrop-blur-sm transition-all'>
       <MaxWidthWrapper>
         <div className='flex h-14 items-center justify-between border-b'>
           <Link href='/' className='flex items-center z-40 '>
