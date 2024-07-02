@@ -35,7 +35,7 @@ const MobileNav = () => {
                 <li>
                   <Link
                     onClick={() =>
-                      closeOnCurrent('/pricing')
+                      closeOnCurrent('/accesorios')
                     }
                     className='flex items-center w-full font-medium text-xl text-white'
                     href='/accesorios'>
@@ -46,7 +46,7 @@ const MobileNav = () => {
                 <li>
                   <Link
                     onClick={() =>
-                      closeOnCurrent('/pricing')
+                      closeOnCurrent('/juguetes')
                     }
                     className='flex items-center w-full font-medium text-xl text-white'
                     href='/juguetes'>

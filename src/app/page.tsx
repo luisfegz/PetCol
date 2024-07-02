@@ -9,8 +9,7 @@ import { clients } from "@/lib/constant";
 export default function Home() {
   return (
     <main className="flex items-center justify-center flex-col">
-      <Navbar />
-        <div className="h-[25em] relative w-full bg-black flex flex-col items-center justify-center rounded-md">
+        <div className="h-[35em] relative w-full bg-black flex flex-col items-center justify-center rounded-md">
           <div className="w-full absolute inset-0 h-screen">
             <SparklesCore
               id="tsparticlesfullpage"
@@ -36,7 +35,7 @@ export default function Home() {
         >
           <div
             className="
-              flex flex-col mt-[-100px] md:mt-[-100px]
+              flex flex-col mt-[-100px] md:mt-[-50px]
             "
           >
             {/* <-----------------------------------------------------------------> */} 
@@ -46,7 +45,7 @@ export default function Home() {
                   <Button
                     size={'lg'}
                     className="
-                      p-8 mb-8 md:mb-0 text-2xl w-full sm:w-fit border-t-2 
+                      p-8 mb-8 text-2xl w-full sm:w-fit border-t-2 
                       rounded-full border-[#4D4D4D] bg-[#1F1F1F] 
                       hover:bg-white group transition-all flex items-center justify-center
                       gap-4 hover:shadow-xl hover:shadow-neutral-500 duration-500
@@ -59,7 +58,7 @@ export default function Home() {
                         group-hover:from-black goup-hover:to-black
                       "
                     >
-                      Experiencia Petcol
+                     Petcol
                     </span>
                   </Button>
                   <h1 
