@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
-import Navbar from '@/components/global/Navbar';
 
 const font = DM_Sans({ subsets: ["latin"] });
 
@@ -24,8 +23,7 @@ export default function RootLayout({
                 defaultTheme="dark"
                 enableSystem
                 disableTransitionOnChange
-              >
-                <Navbar/>
+          >
             {children}
           </ThemeProvider>
       </body>

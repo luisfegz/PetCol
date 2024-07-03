@@ -3,13 +3,15 @@ import { ContainerScroll } from "@/components/global/container-scroll-animation"
 import { InfiniteMovingCards } from "@/components/global/infinite-moving-cards";
 import { LampComponent } from "@/components/global/lamp";
 import { SparklesCore } from "@/components/global/sparkles";
+import { BackgroundGradient } from "@/components/ui/background-gradient";
+import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { Button } from "@/components/ui/button";
-import { clients } from "@/lib/constant";
 
 export default function Home() {
   return (
     <main className="flex items-center justify-center flex-col">
-        <div className="h-[35em] relative w-full bg-black flex flex-col items-center justify-center rounded-md">
+      <Navbar />
+        <div className="h-[35em] relative w-full bg-black flex flex-col items-center justify-center rounded-md"> 
           <div className="w-full absolute inset-0 h-screen">
             <SparklesCore
               id="tsparticlesfullpage"
@@ -58,7 +60,7 @@ export default function Home() {
                         group-hover:from-black goup-hover:to-black
                       "
                     >
-                     Petcol
+                    Petcol
                     </span>
                   </Button>
                   <h1 
@@ -74,9 +76,7 @@ export default function Home() {
             />
             {/* <--------------------------------------------------------------> */}
           </div>
-          
         </section>
-        
     </main>
   );
 }
