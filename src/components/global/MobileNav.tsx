@@ -60,7 +60,7 @@ const MobileNav = () => {
                       closeOnCurrent('/nosotros')
                     }
                     className='flex items-center w-full font-medium text-xl text-white'
-                    href='/binestar'>
+                    href='/bienestar'>
                     Bienestar
                   </Link>
                 </li>
