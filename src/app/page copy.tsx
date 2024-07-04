@@ -6,17 +6,33 @@ import { SparklesCore } from "@/components/global/sparkles";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { Button } from "@/components/ui/button";
-import { clients } from "@/lib/constant";
 
 export default function Home() {
   return (
     <main className="flex items-center justify-center flex-col">
       <Navbar />
+        <div className="h-[35em] relative w-full bg-black flex flex-col items-center justify-center rounded-md"> 
+          <div className="w-full absolute inset-0 h-screen">
+            <SparklesCore
+              id="tsparticlesfullpage"
+              background="transparent"
+              minSize={0.6}
+              maxSize={1.4}
+              particleDensity={100}
+              className="w-full h-full"
+              particleColor="#FFFFFF"
+            />
+          </div>
+          <h1 className="md:text-7xl text-xl lg:text-6xl font-bold text-center text-white relative z-20 pr-10 pl-10">
+          &quot;Descubre el universo de Petcol&quot;
+          </h1>
+        </div>
         <section 
             className="
-              !overflow-visible 
+              rounded-md !overflow-visible 
               relative flex flex-col antialiased 
-              inset-0 h-full w-full items-center px-5 py-0 
+              inset-0 h-full w-full items-center px-5 py-24 
+              [background:radial-gradient(125%_125%_at_50%_10%,#000_35%,#223_100%)]
             "
         >
           <div
@@ -58,13 +74,8 @@ export default function Home() {
                 </div>
               }
             />
-            
-              
             {/* <--------------------------------------------------------------> */}
           </div>
-        </section>
-        <section className="w-full mt-0 inset-0 h-screen">
-          <LampComponent/>
         </section>
     </main>
   );

@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils'
 import { SparklesCore } from './sparkles'
 
 
-export function LampComponent() {
+export function LampComponentJuguete() {
   return (
     <LampContainer>
       <motion.h1
@@ -18,8 +18,8 @@ export function LampComponent() {
         }}
         className="mt-20 bg-gradient-to-br from-neutral-300 to-neutral-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Los mejores recuerdos
-        <br /> se acompañan en familia &lt;3
+        Aprovecha los descuentos
+        <br /> de fin de temporada :&apos;)
       </motion.h1>
     </LampContainer>
   )

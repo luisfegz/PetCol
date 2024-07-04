@@ -6,6 +6,7 @@ import Image from 'next/image';
 import MobileNav from './MobileNav';
 import { buttonVariants } from '../ui/button';
 import MaxWidthWrapper from './MaxWidthWrapper';
+import { ModeToggle } from './toggle-menu';
 
 
 const NewNavbar = () => {
@@ -89,6 +90,7 @@ const NewNavbar = () => {
               Ofertas
             </Link>
             {/* End Offer button */}
+            
           </aside>
           <MobileNav />
         </div>   

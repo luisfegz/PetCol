@@ -6,8 +6,7 @@ type Props = { children: React.ReactNode }
 const Layout = (props: Props) => {
   return (
     <div className=''>
-        <Navbar />
-        <div className='w-full'>{props.children}</div>
+        <div className=''>{props.children}</div>
     </div>
   )
 }
