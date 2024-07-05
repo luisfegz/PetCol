@@ -16,10 +16,10 @@ export function LampComponentJuguete() {
           duration: 0.8,
           ease: 'easeInOut',
         }}
-        className="mt-20 bg-gradient-to-br from-neutral-300 to-neutral-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="mt-[408px] md:mt-[340px] bg-gradient-to-br from-neutral-300 to-neutral-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Diviértete
-        <br /> con tu amigo fiel :O
+        Diviértete 
+        <br /> con tu amigo fiel :D
       </motion.h1>
     </LampContainer>
   )
@@ -35,7 +35,7 @@ export const LampContainer = ({
   return (
     <div
       className={cn(
-        'relative flex min-h-[800px] flex-col items-center justify-center overflow-hidden bg-neutral-950 w-full rounded-md z-0',
+        'relative flex min-h-[800px] flex-col items-center justify-center overflow-hidden bg-neutral-950 w-full z-0',
         className
       )}
     >
@@ -110,7 +110,7 @@ export const LampContainer = ({
         <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-neutral-950 "></div>
       </div>
 
-      <div className="relative z-50 flex -translate-y-80 flex-col items-center px-5">
+      <div className="relative z-50 flex md:-translate-y-[480px] -translate-y-[550px] flex-col items-center px-5">
         {children}
       </div>
     </div>
