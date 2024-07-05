@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils'
 import { SparklesCore } from './sparkles'
 
 
-export function LampComponentAccesorios() {
+export function LampComponentOfertas() {
   return (
     <LampContainer>
       <motion.h1
