@@ -7,6 +7,8 @@ import MobileNav from './MobileNav';
 import { buttonVariants } from '../ui/button';
 import MaxWidthWrapper from './MaxWidthWrapper';
 import { ModeToggle } from './toggle-menu';
+import CartShop from '../icons/CarShop';
+import SearchIcon from '../icons/SearchIcon';
 
 
 const NewNavbar = () => {
@@ -74,20 +76,42 @@ const NewNavbar = () => {
               className='
                   flex
                   items-center
-                  gap-4
+                  gap-[8px]
               '
           >
-            {/* Offer button (Link) */}           
+            {/* Offer button (Link) */} 
             <Link 
               href='/ofertas' 
               className="
-                inline-flex h-14 text-xl animate-shimmer items-center justify-center z-40
+                inline-flex h-12 text-xl animate-shimmer items-center justify-center z-40
                 rounded-md border border-zinc-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] 
-                bg-[length:200%_100%] px-6 font-medium text-slate-100 transition-colors focus:outline-none 
+                bg-[length:200%_100%] px-3.5 font-medium text-slate-100 transition-colors focus:outline-none 
+                focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
+              "
+            >
+              <SearchIcon />
+            </Link>          
+            <Link 
+              href='/ofertas' 
+              className="
+                inline-flex h-12 text-xl animate-shimmer items-center justify-center z-40
+                rounded-md border border-zinc-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] 
+                bg-[length:200%_100%] px-3.5 font-medium text-slate-100 transition-colors focus:outline-none 
                 focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
               "
             >
               Ofertas
+            </Link>
+            <Link 
+              href='/ofertas' 
+              className="
+                inline-flex h-12 text-xl animate-shimmer items-center justify-center z-40
+                rounded-md border border-zinc-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] 
+                bg-[length:200%_100%] px-3.5 font-medium text-slate-100 transition-colors focus:outline-none 
+                focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
+              "
+            >
+              <CartShop />
             </Link>
             {/* End Offer button */}
             
