@@ -11,8 +11,8 @@ function Featured({}: Props) {
             <Wrapper>
                 <div className='flex items-center'>
                     <div>
-                        <h1 className='font-bold mb-2 text-lg text-white'>Example of Product</h1>
-                        <p className='text-[.8rem]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, repudiandae?</p>
+                        <h1 className='font-bold md:font-black mb-2 text-lg md:text-xl text-white'>Example of Product</h1>
+                        <p className='text-[.8rem] md:text-[1.1rem]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, repudiandae?</p>
                     </div>
                 </div>
                 <div>

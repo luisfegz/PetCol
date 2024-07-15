@@ -58,10 +58,10 @@ export default function Home() {
           </div>
         </section>
       {/* <--------------------------------- Third Section: Experimental ---------------------------------> */}
-        <section className="w-full mt-0 inset-0 h-screen">
+        <section className="w-full mt-0 inset-0">
           <Featured />
         </section>
-      {/* <------------------------------- Second Section: Lamp Component --------------------------------> */} 
+      {/* <------------------------------- Second Section: Lamp Component (Maybe in this home page it's better hide this ) --------------------------------> */} 
         <section className="w-full mt-0 inset-0 h-screen">
           <LampComponent/>
         </section>

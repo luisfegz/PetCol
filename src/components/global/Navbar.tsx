@@ -10,9 +10,9 @@ import CartShop from '../icons/CarShop';
 import SearchIcon from '../icons/SearchIcon';
 
 
-const NewNavbar = () => {
+const Navbar = () => {
   return (
-    <nav className='sticky h-[76px] inset-x-0 top-0 z-30 w-full border-b bg-black transition-all'>
+    <nav className='sticky h-[76px] inset-x-0 top-0 z-30 w-full border-b backdrop-blur-xl transition-all'>
       <MaxWidthWrapper>
         <div className='flex h-[76px] items-center justify-between border-b'>
           <Link href='/' className='flex items-center z-40 '>
@@ -122,4 +122,4 @@ const NewNavbar = () => {
   );
 };
 
-export default NewNavbar;
+export default Navbar;
