@@ -1,3 +1,5 @@
+import Center from "@/components/global/Center";
+import Featured from "@/components/global/Featured";
 import Navbar from "@/components/global/Navbar";
 import { ContainerScroll } from "@/components/global/container-scroll-animation";
 import { LampComponent } from "@/components/global/lamp";
@@ -44,8 +46,8 @@ export default function Home() {
                   </Button>
                   <h1 
                     className="
+                      from-white to-neutral-600 font-sans font-bold text-6xl 
                       md:text-8xl bg-clip-text text-transparent bg-gradient-to-b 
-                    from-white to-neutral-600 font-sans font-bold text-6xl
                     "
                   >
                     Mi corazon esta lleno de huellas
@@ -55,11 +57,15 @@ export default function Home() {
             />
           </div>
         </section>
+      {/* <--------------------------------- Third Section: Experimental ---------------------------------> */}
+        <section className="w-full mt-0 inset-0 h-screen">
+          <Featured />
+        </section>
       {/* <------------------------------- Second Section: Lamp Component --------------------------------> */} 
         <section className="w-full mt-0 inset-0 h-screen">
           <LampComponent/>
         </section>
-      {/* <------------------------------- Third Section: Experimental --------------------------------> */}
+      
     </main>
   );
 }
