@@ -12,7 +12,7 @@ import SearchIcon from '../icons/SearchIcon';
 
 const Navbar = () => {
   return (
-    <nav className='sticky h-[76px] inset-x-0 top-0 z-30 w-full border-b backdrop-blur-2xl transition-all'>
+    <nav className='sticky h-[76px] inset-x-0 top-0 z-30 w-full border-b bg-black transition-all'>
       <MaxWidthWrapper>
         <div className='flex h-[76px] items-center justify-between border-b'>
           <Link href='/' className='flex items-center z-40 '>
