@@ -4,7 +4,7 @@ interface CartIconProps {
   className?: string;
 }
 
-const CartIcon: React.FC<CartIconProps> = ({ className = 'w-6 h-6' }) => {
+const CartIcon: React.FC<CartIconProps> = ({ className = 'w-3 h-3 ml-1' }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
